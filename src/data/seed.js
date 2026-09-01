@@ -1,0 +1,77 @@
+// Data contoh yang otomatis dimasukkan ke Firestore saat aplikasi
+// pertama kali dijalankan (lihat App.jsx -> useEffect seeding).
+// id di sini dipakai sebagai document ID di koleksi "profiles".
+export const SEED_PROFILES = [
+  {
+    id: "seed-rina",
+    name: "Rina Kusuma",
+    kota: "Malang",
+    offer: "Desain Grafis",
+    want: "Fotografi Produk",
+    bio: "Bikin logo dan feed Instagram buat UMKM kuliner sekitar kampus.",
+  },
+  {
+    id: "seed-bayu",
+    name: "Bayu Saputra",
+    kota: "Surabaya",
+    offer: "Fotografi Produk",
+    want: "Desain Grafis",
+    bio: "Motret produk buat katalog online shop punya kakak.",
+  },
+  {
+    id: "seed-sinta",
+    name: "Sinta Amelia",
+    kota: "Malang",
+    offer: "Excel & Pembukuan",
+    want: "Marketing Media Sosial",
+    bio: "Bantu warung tetangga rapiin catatan kas tiap hari.",
+  },
+  {
+    id: "seed-dimas",
+    name: "Dimas Prakoso",
+    kota: "Blitar",
+    offer: "Marketing Media Sosial",
+    want: "Coding Dasar",
+    bio: "Pegang akun Instagram warung kopi keluarga sendiri.",
+  },
+  {
+    id: "seed-putri",
+    name: "Putri Wulandari",
+    kota: "Malang",
+    offer: "Menjahit",
+    want: "Fotografi Produk",
+    bio: "Terima jahit baju custom, pengen belajar motret produk sendiri.",
+  },
+  {
+    id: "seed-agus",
+    name: "Agus Hidayat",
+    kota: "Kediri",
+    offer: "Servis Motor",
+    want: "Excel & Pembukuan",
+    bio: "Buka bengkel kecil, catatan kasnya masih berantakan.",
+  },
+  {
+    id: "seed-nadia",
+    name: "Nadia Ramadhani",
+    kota: "Malang",
+    offer: "Bahasa Inggris",
+    want: "Desain Grafis",
+    bio: "Ngajar les privat, mau bikin materi kelas lebih menarik.",
+  },
+  {
+    id: "seed-fajar",
+    name: "Fajar Ramadhan",
+    kota: "Malang",
+    offer: "Coding Dasar",
+    want: "Videografi & Reels",
+    bio: "Bikin website sederhana, pengen belajar edit video promosi.",
+  },
+  {
+    id: "seed-wulan",
+    name: "Wulan Sari",
+    kota: "Surabaya",
+    offer: "Masak & Baking",
+    want: "Marketing Media Sosial",
+    bio: "Jual kue basah tiap pagi, belum pede promosi online.",
+  },
+];
