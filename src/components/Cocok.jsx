@@ -85,7 +85,7 @@ export default function Cocok({ me, matches, requestedIds, onRequest, goTo }) {
                   className={`mt-5 flex items-center justify-center gap-2 rounded-full px-4 py-2.5 font-body text-sm font-semibold transition-colors ${
                     already
                       ? "cursor-default bg-pasar-ink/8 text-pasar-ink/40"
-                      : "bg-pasar-ochre text-pasar-deep hover:brightness-95"
+                      : "bg-pasar-ochre text-white hover:brightness-95"
                   }`}
                 >
                   <Send size={14} />

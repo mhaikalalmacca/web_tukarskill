@@ -8,23 +8,23 @@ export default {
     extend: {
       colors: {
         pasar: {
-          deep: "#12302B",
-          deep2: "#0D2622",
-          paper: "#FBF3E3",
-          paper2: "#F3E8D2",
-          ochre: "#E0972A",
-          ochreDark: "#8A5A15",
-          berry: "#9C3B4E",
-          berryDark: "#5E2130",
-          leaf: "#3E7C59",
-          leafDark: "#204731",
-          ink: "#17211D",
+          deep: "#0B2E5C",       // navy tua — header & aksen gelap
+          deep2: "#071F40",      // navy lebih gelap
+          paper: "#FFFFFF",      // putih — background utama
+          paper2: "#EAF2FB",     // biru sangat muda — background sekunder/card
+          ochre: "#2F6FED",      // biru cerah — tombol/aksen utama
+          ochreDark: "#1B4FBB",  // biru gelap — hover tombol
+          berry: "#1CA7EC",      // biru langit — aksen chip
+          berryDark: "#0E7DB8",
+          leaf: "#5B8DEF",       // biru lembut — aksen chip alternatif
+          leafDark: "#2F5FC4",
+          ink: "#0B1B2B",        // teks utama, biru gelap hampir hitam
         },
       },
       fontFamily: {
-        display: ["Fraunces", "serif"],
-        body: ["Manrope", "sans-serif"],
-        mono: ["JetBrains Mono", "monospace"],
+        display: ["Poppins", "sans-serif"],
+        body: ["Poppins", "sans-serif"],
+        mono: ["Poppins", "sans-serif"],
       },
     },
   },

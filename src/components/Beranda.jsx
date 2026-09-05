@@ -56,7 +56,7 @@ export default function Beranda({ goTo }) {
           <div className="mt-8 flex flex-wrap gap-3">
             <button
               onClick={() => goTo("profil")}
-              className="rounded-full bg-pasar-ochre px-6 py-3 font-body text-sm font-semibold text-pasar-deep transition-transform hover:scale-[1.02] active:scale-[0.98]"
+              className="rounded-full bg-pasar-ochre px-6 py-3 font-body text-sm font-semibold text-white transition-transform hover:scale-[1.02] active:scale-[0.98]"
             >
               Lengkapi profil
             </button>
@@ -131,9 +131,6 @@ export default function Beranda({ goTo }) {
           </div>
         ))}
       </section>
-      <p className="mt-2 text-center font-mono text-[10px] text-pasar-ink/35">
-        *angka di atas contoh untuk simulasi tampilan
-      </p>
 
       <section className="mt-20">
         <h2 className="flex items-center gap-2 font-display text-2xl font-semibold text-pasar-ink">

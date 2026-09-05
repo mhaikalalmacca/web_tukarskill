@@ -24,7 +24,7 @@ import Toast from "./components/Toast";
 const EMPTY_PROFILE = { name: "", kota: "", offer: "", want: "", bio: "" };
 
 export default function App() {
-  const uid = useAuthUid();
+  const { uid, user, isAnonymous, loginWithGoogle, logout } = useAuthUid();
 
   const [activeTab, setActiveTab] = useState("beranda");
   const [profiles, setProfiles] = useState([]);
@@ -133,7 +133,13 @@ export default function App() {
 
   return (
     <div className="min-h-screen bg-pasar-paper font-body">
-      <Header activeTab={activeTab} setActiveTab={setActiveTab} />
+      <Header
+        activeTab={activeTab}
+        setActiveTab={setActiveTab}
+        user={user}
+        isAnonymous={isAnonymous}
+        onLogout={logout}
+      />
 
       {notReady ? (
         <div className="mx-auto max-w-5xl px-6 py-24 text-center">
@@ -168,6 +174,8 @@ export default function App() {
               me={activeProfile}
               onChange={handleProfileChange}
               onSave={handleSaveProfile}
+              isAnonymous={isAnonymous}
+              onLogin={loginWithGoogle}
             />
           )}
         </>
